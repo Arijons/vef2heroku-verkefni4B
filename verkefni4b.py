@@ -33,5 +33,5 @@ fjöldi = 3
 def serve_homepage():
     return template('disp_table',rows = mydict, cases = fjöldi)
 
-bottel.run(host="0.0.0.0", port=argv[1])
+bottle.run(host="0.0.0.0", port=argv[1])
 
